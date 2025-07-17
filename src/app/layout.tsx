@@ -1,7 +1,7 @@
 import "./globals.css";
 import { SidebarProvider, SidebarContent, SidebarFooter,  SidebarGroup, SidebarHeader, SidebarTrigger } from "@/components/ui/sidebar";
 import { ThemeProvider } from "@/components/providers/theme-provider";
-import { AppSidebar } from "@/components/app-sidebar";
+import { AppSidebar } from "@/components/sidebar/app-sidebar";
 
 export const metadata = {
   title: "Sidebar Layout Example",
